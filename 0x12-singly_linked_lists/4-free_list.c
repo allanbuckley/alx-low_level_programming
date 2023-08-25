@@ -5,6 +5,7 @@
  * free_list -This function that frees a linked list
  * @head: A pointer to the list_t to be deallocted
  *
+ * Return: Nothing (void)
  */
 void free_list(list_t *head)
 {
