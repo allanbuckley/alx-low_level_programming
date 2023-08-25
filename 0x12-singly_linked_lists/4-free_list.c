@@ -2,8 +2,9 @@
 #include "lists.h"
 
 /**
- * free_list - function that frees a linked list
- * @head: list_t list to be freed
+ * free_list -This function that frees a linked list
+ * @head: A pointer to the list_t to be deallocted
+ * 
  */
 void free_list(list_t *head)
 {
